@@ -1,0 +1,11 @@
+prefix=C:/Anaconda3/envs/FindSize/Library
+exec_prefix=C:/Anaconda3/envs/FindSize/Library
+libdir=C:/Anaconda3/envs/FindSize/Library/lib
+includedir=C:/Anaconda3/envs/FindSize/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.2.0
+Libs: -LC:/Anaconda3/envs/FindSize/Library/lib -ltiff
+Libs.private: 
+Cflags: -IC:/Anaconda3/envs/FindSize/Library/include

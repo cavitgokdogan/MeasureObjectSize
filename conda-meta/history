@@ -1,0 +1,38 @@
+==> 2022-08-09 19:28:54 <==
+# cmd: C:\Anaconda3\Scripts\conda-script.py create --name FindSize python=3.6.9
+# conda version: 4.13.0
++defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
++defaults/win-64::certifi-2021.5.30-py36haa95532_0
++defaults/win-64::pip-21.2.2-py36haa95532_0
++defaults/win-64::python-3.6.9-h5500b2f_0
++defaults/win-64::setuptools-58.0.4-py36haa95532_0
++defaults/win-64::sqlite-3.39.2-h2bbff1b_0
++defaults/win-64::vc-14.2-h21ff451_1
++defaults/win-64::vs2015_runtime-14.27.29016-h5e58377_2
++defaults/win-64::wincertstore-0.2-py36h7fe50ca_0
+# update specs: ['python=3.6.9']
+==> 2022-08-09 19:30:30 <==
+# cmd: C:\Anaconda3\Scripts\conda-script.py install -c conda-forge aruco
+# conda version: 4.13.0
+-defaults/win-64::certifi-2021.5.30-py36haa95532_0
++conda-forge/win-64::aruco-3.1.2-h6538335_2
++conda-forge/win-64::certifi-2021.5.30-py36ha15d459_0
++conda-forge/win-64::jpeg-9e-h8ffe710_2
++conda-forge/win-64::libpng-1.6.37-h1d00b33_3
++conda-forge/win-64::libtiff-4.2.0-h0c97f57_3
++conda-forge/win-64::libzlib-1.2.12-h8ffe710_2
++conda-forge/win-64::lz4-c-1.9.3-h8ffe710_1
++conda-forge/win-64::python_abi-3.6-2_cp36m
++conda-forge/win-64::xz-5.2.5-h62dcd97_1
++conda-forge/win-64::zlib-1.2.12-h8ffe710_2
++conda-forge/win-64::zstd-1.5.2-h6255e5f_3
++defaults/win-64::libopencv-3.4.2-h20b85fd_0
+# update specs: ['aruco']
+==> 2022-08-09 19:31:06 <==
+# cmd: C:\Anaconda3\Scripts\conda-script.py install -c conda-forge/label/cf202003 aruco
+# conda version: 4.13.0
+-conda-forge/win-64::aruco-3.1.2-h6538335_2
+-conda-forge/win-64::certifi-2021.5.30-py36ha15d459_0
++conda-forge/label/cf202003/win-64::aruco-3.1.2-h6538335_2
++conda-forge/label/cf202003/win-64::certifi-2019.11.28-py36h9f0ad1d_1
+# update specs: ['aruco']

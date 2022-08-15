@@ -1,0 +1,13 @@
+prefix=C:/Anaconda3/envs/FindSize/Library
+exec_prefix=C:/Anaconda3/envs/FindSize/Library
+libdir=C:/Anaconda3/envs/FindSize/Library/lib
+sharedlibdir=C:/Anaconda3/envs/FindSize/Library/lib
+includedir=C:/Anaconda3/envs/FindSize/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=C:/Anaconda3/envs/FindSize/Library
+exec_prefix=C:/Anaconda3/envs/FindSize/Library
+libdir=C:/Anaconda3/envs/FindSize/Library/lib
+includedir=C:/Anaconda3/envs/FindSize/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}

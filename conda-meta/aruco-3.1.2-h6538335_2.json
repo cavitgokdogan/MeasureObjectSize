@@ -1,0 +1,382 @@
+{
+  "arch": "x86_64",
+  "build": "h6538335_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/label/cf202003/win-64",
+  "constrains": [],
+  "depends": [
+    "libopencv >=3.4.2,<3.4.3.0a0"
+  ],
+  "extracted_package_dir": "C:\\Anaconda3\\pkgs\\aruco-3.1.2-h6538335_2",
+  "features": "",
+  "files": [
+    "Library/bin/aruco312.dll",
+    "Library/bin/aruco_batch_processing.exe",
+    "Library/bin/aruco_calibration.exe",
+    "Library/bin/aruco_calibration_fromimages.exe",
+    "Library/bin/aruco_calibration_grid_board_a4.pdf",
+    "Library/bin/aruco_create_markermap.exe",
+    "Library/bin/aruco_markermap_pix2meters.exe",
+    "Library/bin/aruco_print_dictionary.exe",
+    "Library/bin/aruco_print_marker.exe",
+    "Library/bin/aruco_simple.exe",
+    "Library/bin/aruco_simple_markermap.exe",
+    "Library/bin/aruco_test.exe",
+    "Library/bin/aruco_test_markermap.exe",
+    "Library/bin/aruco_tracker.exe",
+    "Library/bin/fractal_tracker.exe",
+    "Library/include/aruco/aruco.h",
+    "Library/include/aruco/aruco_cvversioning.h",
+    "Library/include/aruco/aruco_export.h",
+    "Library/include/aruco/cameraparameters.h",
+    "Library/include/aruco/cvdrawingutils.h",
+    "Library/include/aruco/debug.h",
+    "Library/include/aruco/dictionary.h",
+    "Library/include/aruco/dictionary_based.h",
+    "Library/include/aruco/fractaldetector.h",
+    "Library/include/aruco/fractallabelers/fractallabeler.h",
+    "Library/include/aruco/fractallabelers/fractalmarker.h",
+    "Library/include/aruco/fractallabelers/fractalmarkerset.h",
+    "Library/include/aruco/fractallabelers/fractalposetracker.h",
+    "Library/include/aruco/ippe.h",
+    "Library/include/aruco/levmarq.h",
+    "Library/include/aruco/marker.h",
+    "Library/include/aruco/markerdetector.h",
+    "Library/include/aruco/markerdetector_impl.h",
+    "Library/include/aruco/markerlabeler.h",
+    "Library/include/aruco/markermap.h",
+    "Library/include/aruco/picoflann.h",
+    "Library/include/aruco/posetracker.h",
+    "Library/include/aruco/timers.h",
+    "Library/lib/aruco312.lib",
+    "Library/lib/pkgconfig/aruco-uninstalled.pc",
+    "Library/lib/pkgconfig/aruco.pc",
+    "Library/share/aruco/arucoConfig.cmake",
+    ".nonadmin"
+  ],
+  "fn": "aruco-3.1.2-h6538335_2.tar.bz2",
+  "license": "GPL-3.0",
+  "license_family": "GPL",
+  "link": {
+    "source": "C:\\Anaconda3\\pkgs\\aruco-3.1.2-h6538335_2",
+    "type": 1
+  },
+  "md5": "11365cf09b805ba8a9571a6e3d01f472",
+  "name": "aruco",
+  "package_tarball_full_path": "C:\\Anaconda3\\pkgs\\aruco-3.1.2-h6538335_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/aruco312.dll",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:\\bld\\aruco_1563276391956\\_h_env",
+        "sha256": "5ffcbddaea10e7f008752e943443068d8a726381f7f03a3f18240a54be47df4c",
+        "sha256_in_prefix": "5ffcbddaea10e7f008752e943443068d8a726381f7f03a3f18240a54be47df4c",
+        "size_in_bytes": 874496
+      },
+      {
+        "_path": "Library/bin/aruco_batch_processing.exe",
+        "path_type": "hardlink",
+        "sha256": "4d64fcfab217beca15ce52dff016874769877da44695caac8e6e8bfaa4ed35ea",
+        "sha256_in_prefix": "4d64fcfab217beca15ce52dff016874769877da44695caac8e6e8bfaa4ed35ea",
+        "size_in_bytes": 56320
+      },
+      {
+        "_path": "Library/bin/aruco_calibration.exe",
+        "path_type": "hardlink",
+        "sha256": "b2b807eb78a8cd7689b5afbad9af74796ef81d5b5ce4aee7d3e5d7b2e4177d70",
+        "sha256_in_prefix": "b2b807eb78a8cd7689b5afbad9af74796ef81d5b5ce4aee7d3e5d7b2e4177d70",
+        "size_in_bytes": 72192
+      },
+      {
+        "_path": "Library/bin/aruco_calibration_fromimages.exe",
+        "path_type": "hardlink",
+        "sha256": "59fcee0fb491ce494fe5e90b6f00d80271555443293982b1a598dd4e82e70104",
+        "sha256_in_prefix": "59fcee0fb491ce494fe5e90b6f00d80271555443293982b1a598dd4e82e70104",
+        "size_in_bytes": 62976
+      },
+      {
+        "_path": "Library/bin/aruco_calibration_grid_board_a4.pdf",
+        "path_type": "hardlink",
+        "sha256": "31a26c02db70700ddd0f5760a0b8a8f316e51115f721bfeca83e12ce798a065a",
+        "sha256_in_prefix": "31a26c02db70700ddd0f5760a0b8a8f316e51115f721bfeca83e12ce798a065a",
+        "size_in_bytes": 200501
+      },
+      {
+        "_path": "Library/bin/aruco_create_markermap.exe",
+        "path_type": "hardlink",
+        "sha256": "96412b45699574cb3e93b120f20addbf12096754b8d0589fc1c0396141b6bc24",
+        "sha256_in_prefix": "96412b45699574cb3e93b120f20addbf12096754b8d0589fc1c0396141b6bc24",
+        "size_in_bytes": 39936
+      },
+      {
+        "_path": "Library/bin/aruco_markermap_pix2meters.exe",
+        "path_type": "hardlink",
+        "sha256": "30a55fcad5d4de50ab0a5de9e39f33e8887ed685d5a36675a22d4f18da95a3d5",
+        "sha256_in_prefix": "30a55fcad5d4de50ab0a5de9e39f33e8887ed685d5a36675a22d4f18da95a3d5",
+        "size_in_bytes": 19456
+      },
+      {
+        "_path": "Library/bin/aruco_print_dictionary.exe",
+        "path_type": "hardlink",
+        "sha256": "13eb1e142fc736ae55289ebfb55273f431dad22578af49b758cbac73ce14d8ce",
+        "sha256_in_prefix": "13eb1e142fc736ae55289ebfb55273f431dad22578af49b758cbac73ce14d8ce",
+        "size_in_bytes": 36352
+      },
+      {
+        "_path": "Library/bin/aruco_print_marker.exe",
+        "path_type": "hardlink",
+        "sha256": "a6eb079348d713df9831320d408ab43646f5c73850fff686572cf9b25d3d0c3c",
+        "sha256_in_prefix": "a6eb079348d713df9831320d408ab43646f5c73850fff686572cf9b25d3d0c3c",
+        "size_in_bytes": 27136
+      },
+      {
+        "_path": "Library/bin/aruco_simple.exe",
+        "path_type": "hardlink",
+        "sha256": "a5a63cac3fc8034f9a382acb2871699f6c4587732dfc7023f92ceff43a7c18ee",
+        "sha256_in_prefix": "a5a63cac3fc8034f9a382acb2871699f6c4587732dfc7023f92ceff43a7c18ee",
+        "size_in_bytes": 31744
+      },
+      {
+        "_path": "Library/bin/aruco_simple_markermap.exe",
+        "path_type": "hardlink",
+        "sha256": "a332e86c9194f7919aca76966d1e47550f6605158f875e4257faa4bd8dfd5e82",
+        "sha256_in_prefix": "a332e86c9194f7919aca76966d1e47550f6605158f875e4257faa4bd8dfd5e82",
+        "size_in_bytes": 31232
+      },
+      {
+        "_path": "Library/bin/aruco_test.exe",
+        "path_type": "hardlink",
+        "sha256": "34a99d346ec283c818d36b625bf684c0425cad7a702b6129805e582bf781218d",
+        "sha256_in_prefix": "34a99d346ec283c818d36b625bf684c0425cad7a702b6129805e582bf781218d",
+        "size_in_bytes": 70144
+      },
+      {
+        "_path": "Library/bin/aruco_test_markermap.exe",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:\\bld\\aruco_1563276391956\\_h_env",
+        "sha256": "3928690ed942255d5c94e620636e04ecefb3521d3b500cda69df6e00985ab4df",
+        "sha256_in_prefix": "3928690ed942255d5c94e620636e04ecefb3521d3b500cda69df6e00985ab4df",
+        "size_in_bytes": 144384
+      },
+      {
+        "_path": "Library/bin/aruco_tracker.exe",
+        "path_type": "hardlink",
+        "sha256": "81dcff480f38fcf370711bdeb626a02e63ca0a2c8a310da4470cb6fadbd51f65",
+        "sha256_in_prefix": "81dcff480f38fcf370711bdeb626a02e63ca0a2c8a310da4470cb6fadbd51f65",
+        "size_in_bytes": 36352
+      },
+      {
+        "_path": "Library/bin/fractal_tracker.exe",
+        "path_type": "hardlink",
+        "sha256": "ba7488527919ee6663a8e6993786c6052b8ae7bc1b0775d5e66bf66e5b87c7d3",
+        "sha256_in_prefix": "ba7488527919ee6663a8e6993786c6052b8ae7bc1b0775d5e66bf66e5b87c7d3",
+        "size_in_bytes": 58368
+      },
+      {
+        "_path": "Library/include/aruco/aruco.h",
+        "path_type": "hardlink",
+        "sha256": "58633ace3074c6dd6aeba8cab4623f2fd1fafb4eee9dbc6cdd062194d97c5dff",
+        "sha256_in_prefix": "58633ace3074c6dd6aeba8cab4623f2fd1fafb4eee9dbc6cdd062194d97c5dff",
+        "size_in_bytes": 1728
+      },
+      {
+        "_path": "Library/include/aruco/aruco_cvversioning.h",
+        "path_type": "hardlink",
+        "sha256": "dcf7b8ad6cbc5bab624ed5a0349bdc6ced4ab802a60404eb86c80a62e896bc04",
+        "sha256_in_prefix": "dcf7b8ad6cbc5bab624ed5a0349bdc6ced4ab802a60404eb86c80a62e896bc04",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "Library/include/aruco/aruco_export.h",
+        "path_type": "hardlink",
+        "sha256": "84186cce1af373bf576fea8ba349a6e9acc1d51dc94e86aa46b649b4bdd2d47d",
+        "sha256_in_prefix": "84186cce1af373bf576fea8ba349a6e9acc1d51dc94e86aa46b649b4bdd2d47d",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "Library/include/aruco/cameraparameters.h",
+        "path_type": "hardlink",
+        "sha256": "2eb6b29bd82692732bd7f732d4d416d1e7db7597491a677dfb7200ffd695589e",
+        "sha256_in_prefix": "2eb6b29bd82692732bd7f732d4d416d1e7db7597491a677dfb7200ffd695589e",
+        "size_in_bytes": 6377
+      },
+      {
+        "_path": "Library/include/aruco/cvdrawingutils.h",
+        "path_type": "hardlink",
+        "sha256": "4e3eea23c1e8cb52cd0b24e4f5cc9e0eac7ab93806f0fcb2c67f9ddbb012b9ff",
+        "sha256_in_prefix": "4e3eea23c1e8cb52cd0b24e4f5cc9e0eac7ab93806f0fcb2c67f9ddbb012b9ff",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "Library/include/aruco/debug.h",
+        "path_type": "hardlink",
+        "sha256": "bd2c0864ea62d0d50b92a1e05dd7097f06abee4d0881da2fa809cee0096c163b",
+        "sha256_in_prefix": "bd2c0864ea62d0d50b92a1e05dd7097f06abee4d0881da2fa809cee0096c163b",
+        "size_in_bytes": 3567
+      },
+      {
+        "_path": "Library/include/aruco/dictionary.h",
+        "path_type": "hardlink",
+        "sha256": "7fb4b6f7a14a98ee353a1378876a177abce5debe8e87592015d145be8c8836fa",
+        "sha256_in_prefix": "7fb4b6f7a14a98ee353a1378876a177abce5debe8e87592015d145be8c8836fa",
+        "size_in_bytes": 8094
+      },
+      {
+        "_path": "Library/include/aruco/dictionary_based.h",
+        "path_type": "hardlink",
+        "sha256": "fe58e95d4b73827e1100e1b2f22b95581d5bab976e8ce4a6301658ee2997ef07",
+        "sha256_in_prefix": "fe58e95d4b73827e1100e1b2f22b95581d5bab976e8ce4a6301658ee2997ef07",
+        "size_in_bytes": 189198
+      },
+      {
+        "_path": "Library/include/aruco/fractaldetector.h",
+        "path_type": "hardlink",
+        "sha256": "38e1e2027e052dd3e212eb0bde429654de26942eeca7720dc84f9473ef775648",
+        "sha256_in_prefix": "38e1e2027e052dd3e212eb0bde429654de26942eeca7720dc84f9473ef775648",
+        "size_in_bytes": 3250
+      },
+      {
+        "_path": "Library/include/aruco/fractallabelers/fractallabeler.h",
+        "path_type": "hardlink",
+        "sha256": "63dd91f2380d6244b4765b3176fb12dd546d6735cfe64a529fdbc26d7eac7bfd",
+        "sha256_in_prefix": "63dd91f2380d6244b4765b3176fb12dd546d6735cfe64a529fdbc26d7eac7bfd",
+        "size_in_bytes": 1685
+      },
+      {
+        "_path": "Library/include/aruco/fractallabelers/fractalmarker.h",
+        "path_type": "hardlink",
+        "sha256": "2b5b67501226393aea725df1c2038c3f0af5b04808b738dcdb50b035140c05dd",
+        "sha256_in_prefix": "2b5b67501226393aea725df1c2038c3f0af5b04808b738dcdb50b035140c05dd",
+        "size_in_bytes": 1271
+      },
+      {
+        "_path": "Library/include/aruco/fractallabelers/fractalmarkerset.h",
+        "path_type": "hardlink",
+        "sha256": "10f8131dfa30c9545854a9c1bdc21ac5a59fa32c7192d0f20179ae626adf451c",
+        "sha256_in_prefix": "10f8131dfa30c9545854a9c1bdc21ac5a59fa32c7192d0f20179ae626adf451c",
+        "size_in_bytes": 4499
+      },
+      {
+        "_path": "Library/include/aruco/fractallabelers/fractalposetracker.h",
+        "path_type": "hardlink",
+        "sha256": "d917399c38a4f5dcf84d2fa2e03a8aa005cb36510e2270b59baeea633a1ff16d",
+        "sha256_in_prefix": "d917399c38a4f5dcf84d2fa2e03a8aa005cb36510e2270b59baeea633a1ff16d",
+        "size_in_bytes": 5153
+      },
+      {
+        "_path": "Library/include/aruco/ippe.h",
+        "path_type": "hardlink",
+        "sha256": "2ce1870f0409e6e5c09bd25231e6a3219e3de40f1c5b9d1dfe4820b59718ab7f",
+        "sha256_in_prefix": "2ce1870f0409e6e5c09bd25231e6a3219e3de40f1c5b9d1dfe4820b59718ab7f",
+        "size_in_bytes": 18199
+      },
+      {
+        "_path": "Library/include/aruco/levmarq.h",
+        "path_type": "hardlink",
+        "sha256": "ba19898ffe7967c22dc03be7eec1d5520e71e27592c1ba50d04c6320a9c3492e",
+        "sha256_in_prefix": "ba19898ffe7967c22dc03be7eec1d5520e71e27592c1ba50d04c6320a9c3492e",
+        "size_in_bytes": 13093
+      },
+      {
+        "_path": "Library/include/aruco/marker.h",
+        "path_type": "hardlink",
+        "sha256": "9a81e700b2324372c8c115ae339d3d6d79e8eab6f2a4ad00859ed3525d68b674",
+        "sha256_in_prefix": "9a81e700b2324372c8c115ae339d3d6d79e8eab6f2a4ad00859ed3525d68b674",
+        "size_in_bytes": 6935
+      },
+      {
+        "_path": "Library/include/aruco/markerdetector.h",
+        "path_type": "hardlink",
+        "sha256": "fb0551ff24e276eab210c189c7a8ebc11395f9c3aa757e812c79b5cafee88775",
+        "sha256_in_prefix": "fb0551ff24e276eab210c189c7a8ebc11395f9c3aa757e812c79b5cafee88775",
+        "size_in_bytes": 19200
+      },
+      {
+        "_path": "Library/include/aruco/markerdetector_impl.h",
+        "path_type": "hardlink",
+        "sha256": "4e635a6219aaa4bd47aa51dcd1c1216a66ccc6ab789611a216adff89be13ff38",
+        "sha256_in_prefix": "4e635a6219aaa4bd47aa51dcd1c1216a66ccc6ab789611a216adff89be13ff38",
+        "size_in_bytes": 138876
+      },
+      {
+        "_path": "Library/include/aruco/markerlabeler.h",
+        "path_type": "hardlink",
+        "sha256": "41a43fd8b6890ef22ddaf5a87941477ece3f1cf338b702de7b7fc2caa13ff724",
+        "sha256_in_prefix": "41a43fd8b6890ef22ddaf5a87941477ece3f1cf338b702de7b7fc2caa13ff724",
+        "size_in_bytes": 4704
+      },
+      {
+        "_path": "Library/include/aruco/markermap.h",
+        "path_type": "hardlink",
+        "sha256": "a998ca7359c11289d47b4a833c89a03f85dc9e79988beef483b140fcdef232d3",
+        "sha256_in_prefix": "a998ca7359c11289d47b4a833c89a03f85dc9e79988beef483b140fcdef232d3",
+        "size_in_bytes": 7872
+      },
+      {
+        "_path": "Library/include/aruco/picoflann.h",
+        "path_type": "hardlink",
+        "sha256": "969b967d90b31df5b190088f560393db852afdb810b70ccefa2f97c8625a4bc2",
+        "sha256_in_prefix": "969b967d90b31df5b190088f560393db852afdb810b70ccefa2f97c8625a4bc2",
+        "size_in_bytes": 24955
+      },
+      {
+        "_path": "Library/include/aruco/posetracker.h",
+        "path_type": "hardlink",
+        "sha256": "eb7d9b7adc47d04e53913f9e8257330736c99c914d8222caf3b3429c35a2fb93",
+        "sha256_in_prefix": "eb7d9b7adc47d04e53913f9e8257330736c99c914d8222caf3b3429c35a2fb93",
+        "size_in_bytes": 7411
+      },
+      {
+        "_path": "Library/include/aruco/timers.h",
+        "path_type": "hardlink",
+        "sha256": "2b73be3fa8d7a57454b05244846011087fcd69afa3f0ccacfcd9c3ff7180f8b0",
+        "sha256_in_prefix": "2b73be3fa8d7a57454b05244846011087fcd69afa3f0ccacfcd9c3ff7180f8b0",
+        "size_in_bytes": 6038
+      },
+      {
+        "_path": "Library/lib/aruco312.lib",
+        "path_type": "hardlink",
+        "sha256": "91e2b2a9929f3b60eaf127142be74498d9cd83ba5ae0bbe286e8a8be91afce48",
+        "sha256_in_prefix": "91e2b2a9929f3b60eaf127142be74498d9cd83ba5ae0bbe286e8a8be91afce48",
+        "size_in_bytes": 296068
+      },
+      {
+        "_path": "Library/lib/pkgconfig/aruco-uninstalled.pc",
+        "path_type": "hardlink",
+        "sha256": "ddb10263b7888cf9aa02d5184c17f7accd8cd1930f36eb7cda0999fe79bef1c2",
+        "sha256_in_prefix": "ddb10263b7888cf9aa02d5184c17f7accd8cd1930f36eb7cda0999fe79bef1c2",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "Library/lib/pkgconfig/aruco.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/bld/aruco_1563276391956/_h_env",
+        "sha256": "92dafd3fe5cd6812f7584ac1dc5f29e7e9bb085d3898c69ca44127f4a3ceb47d",
+        "sha256_in_prefix": "7e5df6b0b1786b2b12f3038bd44e1912ad967e29bf3e41288e0e4972c29fb182",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "Library/share/aruco/arucoConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/bld/aruco_1563276391956/_h_env",
+        "sha256": "2f4c15c32bf125ac30bcd6ab27ab76876177c38c923f2bb4524e7fbf76b39492",
+        "sha256_in_prefix": "a293286ef83b4aabae92a61f7c23b824ec32e3d814010a737c7287d99bd730ce",
+        "size_in_bytes": 2275
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "aruco",
+  "size": 947484,
+  "subdir": "win-64",
+  "timestamp": 1563276557321,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/win-64/aruco-3.1.2-h6538335_2.tar.bz2",
+  "version": "3.1.2"
+}
